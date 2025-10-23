@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Nintendo Switch</title>
+    <link rel="shortcut icon" href="nintendo-switch.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 🔐 Login -->
+    <div id="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <p id="error"></p>
+    </div>
+
+    <!-- 🌐 Site principal -->
+    <div id="site-container" style="display:none;">
+        <header>
+            <h1>Meus Jogos Nintendo</h1>
+            <p>Bem-vindo, <span id="userDisplay"></span></p>
+        </header>
+
+        <main id="gallery">
+
+            <div class="card">
+                <img src="imagens/images.jpeg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg"
+                    alt="Super Mario Odyssey">
+                <div class="info">
+                    <h3>Super Mario Odyssey</h3>
+                    <p>Peso: 5.6 GB</p>
+                    <a class="download-btn" href="https://mega.nz/file/EXEMPLO" target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+                    alt="Zelda BOTW">
+                <div class="info">
+                    <h3>Zelda: Breath of the Wild</h3>
+                    <p>Peso: 13.4 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=EXEMPLO"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Pokemon_Sword_artwork.jpg" alt="Pokémon Sword">
+                <div class="info">
+                    <h3>Pokémon Sword</h3>
+                    <p>Peso: 10.3 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=EXEMPLO"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Super_Smash_Bros._Ultimate.jpg"
+                    alt="Smash Bros">
+                <div class="info">
+                    <h3>Super Smash Bros. Ultimate</h3>
+                    <p>Peso: 15.7 GB</p>
+                    <a class="download-btn" href="https://mega.nz/file/EXEMPLO" target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/MarioKart8Boxart.jpg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/MarioKart8Boxart.jpg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/MarioKart8Boxart.jpg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/MarioKart8Boxart.jpg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/23/MarioKart8Boxart.jpg" alt="Mario Kart 8">
+                <div class="info">
+                    <h3>Mario Kart 8 Deluxe</h3>
+                    <p>Peso: 6.8 GB</p>
+                    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=SEU_ID_AQUI"
+                        target="_blank">⬇️ Baixar</a>
+                </div>
+            </div>
+
+            <!-- 🆕 Exemplo de novo jogo:
+      <div class="card">
+        <img src="URL_DA_IMAGEM" alt="NOME DO JOGO">
+        <div class="info">
+          <h3>NOME DO JOGO</h3>
+          <p>Peso: X.X GB</p>
+          <a class="download-btn" href="LINK_DIRETO_DO_JOGO" target="_blank">⬇️ Baixar</a>
+        </div>
+      </div>
+      -->
+
+        </main>
+    </div>
+
+    <!-- ⚙️ Script de login -->
+    <script>
+        const validUser = "Skuggar";
+        const validPass = "ShadowDarks";
+
+        function login() {
+            const user = document.getElementById("username").value.trim();
+            const pass = document.getElementById("password").value.trim();
+            const error = document.getElementById("error");
+
+            if (user === validUser && pass === validPass) {
+                document.getElementById("login-container").style.display = "none";
+                document.getElementById("site-container").style.display = "block";
+                document.getElementById("userDisplay").textContent = user;
+            } else {
+                error.textContent = "Usuário ou senha incorretos!";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
